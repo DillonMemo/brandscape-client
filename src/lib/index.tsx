@@ -66,7 +66,10 @@ export default function RootProvider({ children }: React.PropsWithChildren) {
         {`
           if(!wcs_add) var wcs_add = {};
           wcs_add["wa"] = "b11a86fd040ce8";
-          if(window.wcs) { wcs_do(); }
+          if(window.wcs) {
+          wcs.inflow("brandscape.co.kr");
+          }
+          wcs_do();
         `}
       </Script>
 

@@ -106,7 +106,7 @@ export default function TrademarkTable({ body, count }: Props) {
 
                     "상태",
                     "견본",
-                    "상호명",
+                    "상표명",
                     "분류",
                     "출원인",
                     "출원일",
